@@ -1,5 +1,5 @@
 .about_container {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1.1fr 1fr;
   align-items: center;
   column-gap: 1rem;
 }
@@ -8,6 +8,8 @@
   grid-template-columns: 250px;
   margin-bottom: var(--mb-2);
   justify-content: center;
+  padding-left: 2rem;
+  border-right: 1px solid var(--line-color);
 }
 
 .about_box {
@@ -35,8 +37,7 @@
 
 .about_description {
   margin-bottom: var(--mb-2-5);
-  padding-left: 1rem;
-  border-left: 1px solid var(--line-color);
+  padding-left: 3rem;
   text-align: justify;
 }
 
@@ -87,6 +88,10 @@
 @media screen and (max-width: 768px) {
   .about_container {
     grid-template-columns: 1fr;
+  }
+
+  .about_info {
+    border: none;
   }
 }
 
