@@ -19,15 +19,15 @@
 .home_subtitle {
   position: relative;
   font-size: var(--h3-font-size);
-  padding-left: 5.4rem;
-  font-weight: var(--font-normal);
+  padding-left: 8rem;
+  font-weight: var(--font-medium);
   margin-bottom: var(--mb-3);
 }
 
 .home_subtitle::before {
   content: "";
   position: absolute;
-  width: 70px;
+  width: 100px;
   height: 1px;
   background-color: var(--line-color);
   left: 0;
@@ -208,7 +208,7 @@
 
   .home_subtitle {
     padding-left: 3.75rem;
-    margin-bottom: var(--mb-1);
+    margin-bottom: 4rem;
   }
 
   .home_subtitle::before {
@@ -218,7 +218,7 @@
 
   .home_description {
     max-width: initial;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-1-5);
   }
 }
 
@@ -250,11 +250,11 @@
 
   .cup {
     position: relative;
-    width: 80px;
+    width: 60px;
     height: 50px;
     background-color: var(--text-color);
     top: 80px;
-    left: 0px;
+    left: 10px;
     border-radius: 0 0 10px 10px;
   }
 
@@ -274,9 +274,9 @@
     position: absolute;
     background-color: hsl(var(--hue), var(--sat), 25%);
     height: 5px;
-    width: 110px;
+    width: 95px;
     border-radius: 10px;
-    top: 60px;
+    top: 53px;
     left: -19px;
   }
 
