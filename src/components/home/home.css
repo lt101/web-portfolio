@@ -1,0 +1,317 @@
+.home {
+  height: 100vh;
+}
+
+.home_content {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 30px repeat(2, 1fr);
+  padding-top: 5.5rem;
+  column-gap: 2rem;
+  align-items: center;
+}
+
+.home_title {
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-0-25);
+}
+
+.home_subtitle {
+  position: relative;
+  font-size: var(--h3-font-size);
+  padding-left: 5.4rem;
+  font-weight: var(--font-normal);
+  margin-bottom: var(--mb-3);
+}
+
+.home_subtitle::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 1px;
+  background-color: var(--line-color);
+  left: 0;
+  top: 1rem;
+}
+
+.home_description {
+  max-width: 400px;
+  margin-bottom: var(--mb-1);
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 3rem;
+  left: 48.5%;
+}
+
+.steaming-coffee {
+  order: 1;
+  position: relative;
+  background: url("../../assets/skyline.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -2rem 0rem;
+}
+
+.cup {
+  position: relative;
+  width: 130px;
+  height: 100px;
+  background-color: var(--text-color);
+  top: 130px;
+  left: 180px;
+  border-radius: 0 0 15px 15px;
+}
+
+.cup:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 15px solid var(--text-color);
+  border-radius: 50%;
+  left: 100px;
+  top: 20px;
+}
+
+.cup:after {
+  content: "";
+  position: absolute;
+  background-color: hsl(var(--hue), var(--sat), 25%);
+  height: 10px;
+  width: 180px;
+  border-radius: 10px;
+  top: 105px;
+  left: -25px;
+}
+
+.test {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  overflow: hidden;
+  opacity: 0.5;
+  top: -50px;
+  left: 190px;
+}
+
+.steam {
+  position: absolute;
+  top: 100px;
+  animation: steam 3s linear infinite;
+}
+
+.steam-2 {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  animation: steam 3s linear infinite;
+}
+
+.steam-3 {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  animation: steam 3s linear infinite;
+}
+
+.one {
+  position: absolute;
+}
+
+.two {
+  position: absolute;
+}
+
+.steam:before,
+.one:before,
+.two:before,
+.steam-2:before,
+.steam-3:before {
+  content: "";
+  position: absolute;
+  border-left: 7px solid var(--line-color-light);
+  border-top: 7px solid var(--line-color-light);
+  width: 30px;
+  height: 30px;
+  border-top-left-radius: 100%;
+  transform: rotate(-40deg);
+}
+
+.one:before {
+  top: -93px;
+  left: 0;
+}
+
+.two:before {
+  top: -185px;
+  left: 1.2px;
+}
+
+.steam:after,
+.one:after,
+.two:after,
+.steam-2:after,
+.steam-3:after {
+  content: "";
+  position: absolute;
+  border-right: 7px solid var(--line-color-light);
+  border-top: 7px solid var(--line-color-light);
+  width: 30px;
+  height: 30px;
+  border-top-right-radius: 100%;
+  transform: rotate(40deg);
+}
+
+.steam:after {
+  top: -46.5px;
+  left: 4px;
+}
+
+.one:after {
+  top: -139.5px;
+  left: 4px;
+}
+
+.two:after {
+  top: -231px;
+  left: 4.7px;
+}
+
+.steam-2:after {
+  top: -46.5px;
+  left: 4.5px;
+}
+
+.steam-3:after {
+  top: -46.5px;
+  left: 4.5px;
+}
+
+@keyframes steam {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(7px);
+  }
+}
+
+/* Breakpoints for responsiveness */
+/* Large devices */
+@media screen and (max-width: 992px) {
+  .home_content {
+    grid-template-columns: 100px repeat(2, 1fr);
+    column-gap: 1.25rem;
+  }
+
+  .home_subtitle {
+    padding-left: 3.75rem;
+    margin-bottom: var(--mb-1);
+  }
+
+  .home_subtitle::before {
+    width: 42px;
+    top: 0.8rem;
+  }
+
+  .home_description {
+    max-width: initial;
+    margin-bottom: var(--mb-2-5);
+  }
+}
+
+/* Medium devices */
+@media screen and (max-width: 768px) {
+  .home {
+    height: fit-content;
+  }
+
+  .home_content {
+    padding-top: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home_data {
+    grid-column: 1/3;
+  }
+
+  .down-arrow {
+    visibility: hidden;
+  }
+
+  .steaming-coffee {
+    order: 1;
+    position: relative;
+  }
+
+  .cup {
+    position: relative;
+    width: 80px;
+    height: 50px;
+    background-color: var(--text-color);
+    top: 80px;
+    left: 0px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .cup:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 8px solid var(--text-color);
+    border-radius: 50%;
+    left: -17px;
+    top: 9px;
+  }
+
+  .cup:after {
+    content: "";
+    position: absolute;
+    background-color: hsl(var(--hue), var(--sat), 25%);
+    height: 5px;
+    width: 110px;
+    border-radius: 10px;
+    top: 60px;
+    left: -19px;
+  }
+
+  .test {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    opacity: 0.5;
+    top: -30px;
+    left: 0px;
+  }
+
+  .steam {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    animation: steam 3s linear infinite;
+  }
+
+  .steam-2 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    animation: steam 3s linear infinite;
+  }
+
+  .steam-3 {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    animation: steam 3s linear infinite;
+  }
+}
+
+/* Small devices */
+@media screen and (max-width: 350px) {
+}
