@@ -35,10 +35,14 @@ const About = () => {
           software developer. Whether I'm starting from a blank canvas or a
           product already deep into its life cycle, I enjoy bringing ideas to
           life, translating{" "}
-          <p className="highlight">thoughts to code and code to experiences</p>.
-          I am always up for a challenge, and constantly seek to push my limits.
-          <div className="about_skills_intro" id="skills">
-            Here are some of my skills and technologies that I use:{" "}
+          <p className="highlight" id="skills">
+            thoughts to code and code to experiences
+          </p>
+          . I am always up for a challenge, and constantly seek to push my
+          limits.
+          <div className="about_skills_intro">
+            Here are some of my <p className="highlight">skills</p> and
+            <p className="highlight"> technologies</p> that I use:{" "}
           </div>
           <div className="about_skills">
             <ul>
