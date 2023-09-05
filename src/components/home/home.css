@@ -14,6 +14,7 @@
 .home_title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-0-25);
+  color: var(--title-color);
 }
 
 .home_subtitle {
@@ -37,6 +38,11 @@
 .home_description {
   max-width: 400px;
   margin-bottom: var(--mb-1);
+}
+
+.home_welcome {
+  margin-top: 2rem;
+  font-weight: var(--font-medium);
 }
 
 .down-arrow {

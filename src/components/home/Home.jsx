@@ -5,24 +5,24 @@ import DownArrow from "../../assets/arrow-down.png";
 import { motion, useAnimate } from "framer-motion";
 
 const Home = () => {
-  const [imgScope, animateImg] = useAnimate();
+  // const [imgScope, animateImg] = useAnimate();
 
-  async function imageAnimation() {
-    await animateImg(
-      imgScope.current,
-      { opacity: 1 },
-      { duration: 1.2, delay: 0.2 }
-    );
-    animateImg(
-      imgScope.current,
-      { x: 1, y: 1, scale: 1 },
-      { type: "tween", duration: 0.6 }
-    );
-  }
+  // async function imageAnimation() {
+  //   await animateImg(
+  //     imgScope.current,
+  //     { opacity: 1 },
+  //     { duration: 1.2, delay: 0.2 }
+  //   );
+  //   animateImg(
+  //     imgScope.current,
+  //     { x: 1, y: 1, scale: 1 },
+  //     { type: "tween", duration: 0.6 }
+  //   );
+  // }
 
-  useEffect(() => {
-    imageAnimation();
-  }, []);
+  // useEffect(() => {
+  //   imageAnimation();
+  // }, []);
 
   return (
     <section className="home section" id="home">
@@ -30,9 +30,10 @@ const Home = () => {
         <div className="home_content">
           <div />
           <motion.div
-            ref={imgScope}
             class="steaming-coffee"
-            initial={{ x: "-50%", y: "45%", scale: 1.3, opacity: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6, duration: 3 }}
           >
             <div class="cup"></div>
             <div class="test">
@@ -107,7 +108,7 @@ const Home = () => {
           animate="visible"
           transition={{
             duration: 0.7,
-            delay: 4.2,
+            delay: 2.9,
             repeat: Infinity,
             repeatType: "reverse",
           }}
