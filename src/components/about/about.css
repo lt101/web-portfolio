@@ -42,6 +42,21 @@
   text-align: justify;
 }
 
+.about_skills_intro {
+  margin: 1rem 0 1rem 0;
+}
+
+.about_skills {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.about_skills ul {
+  list-style: square;
+}
+
 .about_description p {
   display: inline;
 }

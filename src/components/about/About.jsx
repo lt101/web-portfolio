@@ -37,6 +37,23 @@ const About = () => {
           life, translating{" "}
           <p className="highlight">thoughts to code and code to experiences</p>.
           I am always up for a challenge, and constantly seek to push my limits.
+          <div className="about_skills_intro" id="skills">
+            Here are some of my skills and technologies that I use:{" "}
+          </div>
+          <div className="about_skills">
+            <ul>
+              <li>React</li>
+              <li>Angular</li>
+              <li>Javascript</li>
+              <li>Typescript</li>
+            </ul>
+            <ul>
+              <li>Node.js</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>C# .NET</li>
+            </ul>
+          </div>
           <div className="download_container">
             <a
               download=""
