@@ -37,11 +37,11 @@
 
 .home_description {
   max-width: 400px;
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-0-5);
 }
 
 .home_welcome {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   font-weight: var(--font-medium);
 }
 
@@ -224,7 +224,6 @@
 
   .home_description {
     max-width: initial;
-    margin-bottom: var(--mb-1-5);
   }
 }
 
