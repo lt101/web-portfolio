@@ -92,6 +92,7 @@
 
   .about_info {
     border: none;
+    padding-left: 0;
   }
 }
 
