@@ -8,6 +8,11 @@ const Footer = () => {
         <h1 className="footer_title">Liêm Truong</h1>
         <ul className="footer_list">
           <li>
+            <a href="#home" className="footer_link">
+              Home
+            </a>
+          </li>
+          <li>
             <a href="#about" className="footer_link">
               About
             </a>
@@ -20,11 +25,6 @@ const Footer = () => {
           <li>
             <a href="#skills" className="footer_link">
               Skills
-            </a>
-          </li>
-          <li>
-            <a href="#portfolio" className="footer_link">
-              Projects
             </a>
           </li>
         </ul>
