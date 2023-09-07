@@ -1,0 +1,108 @@
+.timeline_container {
+  margin: 5em auto;
+  max-width: 34.15em;
+}
+
+.timeline_item {
+  max-width: 34em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: relative;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+.timeline_item div {
+  border: 2px solid var(--text-color);
+  border-radius: 1em;
+  padding: 1.5em;
+}
+
+.timeline_item h3 {
+  font-weight: var(--font-semi-bold);
+}
+
+.timeline_item p {
+  line-height: 27px;
+  color: var(--line-color);
+}
+
+.timeline_item:nth-child(odd) {
+  border-left: 3px solid var(--text-color);
+  padding-left: 3em;
+  transform: translateX(17em);
+}
+
+.timeline_item:nth-child(even) {
+  border-right: 3px solid var(--text-color);
+  padding-right: 3em;
+  transform: translateX(-17em);
+}
+
+.timeline_item:nth-child(odd)::before,
+.timeline_item:nth-child(even)::before {
+  content: "";
+  background: var(--line-color);
+  width: 3em;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline_item:nth-child(odd)::before {
+  left: 0;
+}
+
+.timeline_item:nth-child(even)::before {
+  right: 0;
+}
+
+.timeline_item:nth-child(odd) div::before,
+.timeline_item:nth-child(even) div::before {
+  content: "";
+  background: var(--line-color);
+  box-shadow: 0 0 0.5em var(--line-color-light);
+  width: 0.8em;
+  height: 0.8em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.timeline_item:nth-child(odd) div::before {
+  left: -0.5em;
+}
+
+.timeline_item:nth-child(even) div::before {
+  right: -0.5em;
+}
+
+@media screen and (max-width: 1150px) {
+  .timeline_container {
+    width: 80vw;
+  }
+
+  .timeline_container .timeline_item {
+    width: 100%;
+    transform: none;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+  }
+
+  .timeline_container .timeline_item::before {
+    width: 3px;
+    height: 4em;
+    top: -2em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .timeline_container .timeline_item div::before {
+    top: -0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

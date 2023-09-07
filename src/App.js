@@ -7,6 +7,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Portfolio from "./components/portfolio/Portfolio";
+import Timeline from "./components/timeline/Timeline";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main className="main">
         <Home />
         <About />
+        <Timeline />
         <Portfolio />
         <Contact />
       </main>
