@@ -68,7 +68,7 @@
   border: 3px solid var(--line-color);
   top: 130px;
   left: 230px;
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 20px 20px;
 }
 
 .cup:before {
@@ -260,7 +260,6 @@
     position: relative;
     width: 60px;
     height: 50px;
-    background-color: var(--text-color);
     top: 80px;
     left: 10px;
     border-radius: 0 0 10px 10px;
@@ -271,19 +270,18 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    border: 8px solid var(--text-color);
     border-radius: 50%;
-    left: -17px;
-    top: 9px;
+    left: 49px;
+    top: 10px;
   }
 
   .cup:after {
     content: "";
     position: absolute;
-    background-color: hsl(var(--hue), var(--sat), 25%);
     height: 5px;
-    width: 95px;
+    width: 89px;
     border-radius: 10px;
+    border: 1px;
     top: 53px;
     left: -19px;
   }
