@@ -1,29 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./home.css";
 import Data from "./Data";
 import DownArrow from "../../assets/arrow-down.png";
-import { motion, useAnimate } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Home = () => {
-  // const [imgScope, animateImg] = useAnimate();
-
-  // async function imageAnimation() {
-  //   await animateImg(
-  //     imgScope.current,
-  //     { opacity: 1 },
-  //     { duration: 1.2, delay: 0.2 }
-  //   );
-  //   animateImg(
-  //     imgScope.current,
-  //     { x: 1, y: 1, scale: 1 },
-  //     { type: "tween", duration: 0.6 }
-  //   );
-  // }
-
-  // useEffect(() => {
-  //   imageAnimation();
-  // }, []);
-
   return (
     <section className="home section" id="home">
       <div className="home_container container grid">
