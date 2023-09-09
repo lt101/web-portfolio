@@ -5,7 +5,7 @@
 }
 
 .about_info {
-  grid-template-columns: 250px;
+  grid-template-columns: 255px;
   margin-bottom: var(--mb-2);
   margin-right: 1rem;
   justify-content: center;
