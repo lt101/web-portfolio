@@ -32,10 +32,8 @@ const About = () => {
           transition={{ delay: 0.2 }}
         >
           <div>
-            My name is Liêm, and I'm a fullstack software developer. I studied
-            software engineering at{" "}
-            <p className="highlight">Polytechnique Montreal</p>. where I
-            obtained my B.Eng. degree.
+            Hi, my name is Liêm. I'm a software engineer and{" "}
+            <p className="highlight">Polytechnique Montreal</p> graduate.
           </div>
           <div>
             Whether I'm starting from a blank canvas or a product already deep
@@ -47,24 +45,6 @@ const About = () => {
             limits.
           </div>
 
-          {/* <div className="about_skills_intro">
-            Here are some of my <p className="highlight">skills</p> and
-            <p className="highlight"> technologies</p> that I use:{" "}
-          </div>
-          <div className="about_skills">
-            <ul>
-              <li>React</li>
-              <li>Angular</li>
-              <li>Javascript</li>
-              <li>Typescript</li>
-            </ul>
-            <ul>
-              <li>Node.js</li>
-              <li>Java</li>
-              <li>Python</li>
-              <li>C# .NET</li>
-            </ul>
-          </div> */}
           <div className="download_container">
             <a
               download=""
