@@ -283,7 +283,7 @@
     border-radius: 10px;
     border: 1px;
     top: 53px;
-    left: -19px;
+    left: -17px;
   }
 
   .test {
@@ -316,8 +316,4 @@
     left: 40px;
     animation: steam 3s linear infinite;
   }
-}
-
-/* Small devices */
-@media screen and (max-width: 350px) {
 }
