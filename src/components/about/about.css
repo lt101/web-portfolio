@@ -42,6 +42,10 @@
   text-align: justify;
 }
 
+.about_description div {
+  margin: 1rem;
+}
+
 .about_skills_intro {
   margin: 1rem 0 1rem 0;
 }
@@ -104,6 +108,7 @@
 @media screen and (max-width: 768px) {
   .about_container {
     grid-template-columns: 1fr;
+    gap: 0;
   }
 
   .about_info {

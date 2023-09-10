@@ -31,16 +31,23 @@ const About = () => {
           animate={textControls}
           transition={{ delay: 0.2 }}
         >
-          My name is Liêm, and I'm a <p className="highlight">fullstack </p>
-          software developer. Whether I'm starting from a blank canvas or a
-          product already deep into its life cycle, I enjoy bringing ideas to
-          life, translating{" "}
-          <p className="highlight" id="skills">
-            thoughts to code and code to experiences
-          </p>
-          . I am always up for a challenge, and constantly seek to push my
-          limits.
-          <div className="about_skills_intro">
+          <div>
+            My name is Liêm, and I'm a fullstack software developer. I studied
+            software engineering at{" "}
+            <p className="highlight">Polytechnique Montreal</p>. where I
+            obtained my B.Eng. degree.
+          </div>
+          <div>
+            Whether I'm starting from a blank canvas or a product already deep
+            into its life cycle, I enjoy bringing ideas to life, translating{" "}
+            <p className="highlight" id="skills">
+              thoughts to code and code to experiences
+            </p>
+            . I am always up for a challenge, and constantly seek to push my
+            limits.
+          </div>
+
+          {/* <div className="about_skills_intro">
             Here are some of my <p className="highlight">skills</p> and
             <p className="highlight"> technologies</p> that I use:{" "}
           </div>
@@ -57,7 +64,7 @@ const About = () => {
               <li>Python</li>
               <li>C# .NET</li>
             </ul>
-          </div>
+          </div> */}
           <div className="download_container">
             <a
               download=""
