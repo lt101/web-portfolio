@@ -10,7 +10,7 @@ export const projectsData = [
     image: Portfolio,
     title: "Personal portfolio",
     description:
-      "Yes, you read that right. This is the project I work on the most, as I continuously update it. I am quite fond of my portfolio as it is both a digital creative playground and time capsule. Enjoy!",
+      "This is the project I work on the most, as I continuously update it. I am quite fond of my portfolio as it is both a digital creative playground and time capsule. Enjoy!",
     tags: "React | CSS | Javascript",
     link: "https://github.com/lt101/web-portfolio",
   },

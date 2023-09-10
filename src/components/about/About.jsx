@@ -16,8 +16,10 @@ const About = () => {
   }, [isInView]);
 
   return (
-    <section className="about section" id="about">
-      <h2 className="section_title">About Me</h2>
+    <section className="about section container" id="about">
+      <div className="about_header">
+        A little bit <span className="section_title">About Me</span>
+      </div>
       <div className="about_container container grid">
         <Info />
         <motion.div
@@ -36,8 +38,8 @@ const About = () => {
             <p className="highlight">Polytechnique Montreal</p> graduate.
           </div>
           <div>
-            Whether I'm starting from a blank canvas or a product already deep
-            into its life cycle, I enjoy bringing ideas to life, translating{" "}
+            Whether I'm starting from a blank canvas or a matured product, I
+            enjoy bringing ideas to life, translating{" "}
             <p className="highlight" id="skills">
               thoughts to code and code to experiences
             </p>

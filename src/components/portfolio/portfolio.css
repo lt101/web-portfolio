@@ -4,6 +4,12 @@
   margin-right: auto;
 }
 
+.work_header {
+  text-align: center;
+  padding-right: 8rem;
+  padding-bottom: 2rem;
+}
+
 .work_card {
   display: grid;
   grid-template-columns: 1fr 2fr;

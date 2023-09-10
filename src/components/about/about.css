@@ -4,6 +4,12 @@
   column-gap: 1rem;
 }
 
+.about_header {
+  text-align: end;
+  padding-right: 11rem;
+  padding-bottom: 2rem;
+}
+
 .about_info {
   grid-template-columns: 255px;
   margin-bottom: var(--mb-2);
@@ -109,6 +115,11 @@
   .about_container {
     grid-template-columns: 1fr;
     gap: 0;
+  }
+
+  .about_header {
+    text-align: center;
+    padding-right: 0;
   }
 
   .about_info {

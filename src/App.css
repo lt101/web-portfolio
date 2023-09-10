@@ -125,10 +125,12 @@ svg {
 }
 
 .section_title {
-  font-size: var(--h1-font-size);
+  font-size: var(--big-font-size);
   font-weight: var(--font-medium);
   color: var(--title-color);
   margin-bottom: var(--mb-2);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .section_subtitle {

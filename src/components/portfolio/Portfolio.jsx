@@ -4,8 +4,11 @@ import Works from "./Works";
 
 const Portfolio = () => {
   return (
-    <section className="portfolio section" id="portfolio">
-      <h2 className="section_title">My work</h2>
+    <section className="portfolio section container" id="portfolio">
+      <div className="work_header">
+        Feel free to explore some of{" "}
+        <span className="section_title">My Work</span>
+      </div>
       <Works />
     </section>
   );
