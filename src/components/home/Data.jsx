@@ -17,7 +17,7 @@ const Data = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.6, duration: 0.5 }}
       >
-        <h3 className="home_subtitle">Software Engineer</h3>
+        <div className="home_subtitle">Software Engineer</div>
         <h4 className="home_description">Fullstack developer,</h4>
         <h4 className="home_description">Idea-to-code translator,</h4>
         <h4 className="home_description">Problem solver.</h4>

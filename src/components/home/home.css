@@ -19,8 +19,8 @@
 
 .home_subtitle {
   position: relative;
-  font-size: var(--h3-font-size);
-  padding-left: 8rem;
+  font-size: var(--h2-font-size);
+  padding-left: 7rem;
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-3);
 }
@@ -32,7 +32,7 @@
   height: 1px;
   background-color: var(--line-color);
   left: 0;
-  top: 1rem;
+  top: 1.2rem;
 }
 
 .home_description {
@@ -75,8 +75,8 @@
 .top {
   position: absolute;
   top: -20px;
-  left: 0;
-  width: 100%;
+  left: -0.1px;
+  width: 101%;
   height: 40px;
   border-radius: 50%;
   background: linear-gradient(to right, #f9f9f9, #d9d9d9);
@@ -85,10 +85,10 @@
 
 .circle {
   position: absolute;
-  top: 4px;
-  left: 5px;
-  width: calc(100% - 10px);
-  height: 28px;
+  top: 3px;
+  left: 3.8px;
+  width: calc(100% - 7px);
+  height: 33px;
   background: linear-gradient(to left, #f9f9f9, #d9d9d9);
   border: 1px solid var(--line-color);
   border-radius: 50%;
