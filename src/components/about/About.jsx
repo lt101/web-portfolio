@@ -25,7 +25,7 @@ const About = () => {
           A little bit{" "}
           <RoughNotation
             type="underline"
-            color="#808000"
+            color="#000080"
             strokeWidth={3}
             iterations={3}
             animationDelay={300}
@@ -57,7 +57,7 @@ const About = () => {
               <RoughNotation
                 type="highlight"
                 multiline={true}
-                color="#FFDEAD"
+                color="#FFA07A"
                 animationDelay={700}
               >
                 <span className="highlight">

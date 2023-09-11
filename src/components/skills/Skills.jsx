@@ -27,7 +27,7 @@ const Skills = () => {
         Here are some of the{" "}
         <RoughNotation
           type="circle"
-          color="#00CED1"
+          color="#20B2AA"
           strokeWidth={3}
           padding={[40, 0, 10, 0]}
           show={roughAnimate}

@@ -16,7 +16,16 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 3 }}
           >
-            <div class="cup"></div>
+            <div class="cup">
+              <div className="top">
+                <div className="circle">
+                  <div className="tea"></div>
+                </div>
+              </div>
+              <div className="handle1"></div>
+              <div className="handle2"></div>
+              <div className="plate"></div>
+            </div>
             <div class="test">
               <motion.div
                 class="steam"
