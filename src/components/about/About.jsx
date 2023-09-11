@@ -24,8 +24,9 @@ const About = () => {
         <div className="about_header">
           A little bit{" "}
           <RoughNotation
-            type="underline"
+            type="box"
             color="#000080"
+            padding={[40, 0, 10, 0]}
             strokeWidth={3}
             iterations={3}
             animationDelay={300}

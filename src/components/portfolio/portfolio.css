@@ -85,6 +85,9 @@
 
 /* Medium devices */
 @media screen and (max-width: 768px) {
+  .work_header {
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 576px) {

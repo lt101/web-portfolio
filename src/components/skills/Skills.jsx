@@ -29,7 +29,7 @@ const Skills = () => {
           type="circle"
           color="#20B2AA"
           strokeWidth={3}
-          padding={[40, 0, 10, 0]}
+          padding={[40, 5, 10, 5]}
           show={roughAnimate}
           animationDelay={700}
         >
