@@ -85,8 +85,8 @@
 
 .circle {
   position: absolute;
-  top: 3px;
-  left: 3.8px;
+  top: 2px;
+  left: 4px;
   width: calc(100% - 7px);
   height: 33px;
   background: linear-gradient(to left, #f9f9f9, #d9d9d9);
