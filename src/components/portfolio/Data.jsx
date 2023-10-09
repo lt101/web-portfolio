@@ -2,17 +2,17 @@ import Chat from "../../assets/react-firebase-chat-interface.png";
 import Scrabble from "../../assets/scrabble-desktop-game-dark.png";
 import Inventory from "../../assets/inventory_manager page.png";
 import PolyBM from "../../assets/polybm visualization page.png";
-import Portfolio from "../../assets/portfolio screenshot.png";
+import NeXtep from "../../assets/nextep screenshot.png";
 
 export const projectsData = [
   {
     id: 1,
-    image: Portfolio,
-    title: "Personal portfolio",
+    image: NeXtep,
+    title: "NeXtep - Job Application Tracker",
     description:
-      "This is the project I work on the most, as I continuously update it. I am quite fond of my portfolio as it is both a digital creative playground and time capsule. Enjoy!",
-    tags: "React | CSS | Javascript",
-    link: "https://github.com/lt101/web-portfolio",
+      "A centralized job application tracker to help you search for the next step of your career. Create new job applications and update them as you progress in the recruitment process. Good luck in your search!",
+    tags: "MERN | React | Redux | Node.js | MongoDB | Express",
+    link: "https://github.com/lt101/job-tracker",
   },
   {
     id: 2,
